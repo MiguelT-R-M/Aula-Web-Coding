@@ -1,0 +1,60 @@
+
+/* classe:
+.cabecalho{
+
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/* ID:
+#prmro{
+
+    font-size: 100px;
+    color: white;
+    background-color: black;
+    text-align: center;
+
+}
+
+@keyframes anima {
+
+    from{
+
+        
+
+    }
+    to{
+
+
+
+    }
+    
+}
+*/
+
+div{
+
+    background-color: black;
+    height: 200px;
+    width: 200px;
+    margin: 100px 200px 300px;
+    border: 50px ridge rgb(59, 11, 231);
+    border-top: 10px ridge rgb(7, 226, 98);
+    border-bottom: 10px ridge rgb(253, 8, 0);
+    color: blue;
+    padding: 100px;
+    font-size: 100px;
+    text-align: center;
+    overflow: auto;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 20px;
+
+}
+
+*{
+
+    margin: 0;
+    box-sizing: content-box;
+
+}
+
