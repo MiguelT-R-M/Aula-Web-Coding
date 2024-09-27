@@ -1,0 +1,22 @@
+HMTL-CSS
+
+---HTML
+-Atributos de tag
+-tags textuais
+-listas
+-tabela
+-tags de formulário
+-tags semanticas
+-atributos de estilização (class e id)
+
+---CSS
+-sintaxe
+-uso de classe e id 
+-box-model
+-tipos de css
+--propriedades básicas de css
+-cor de fonte
+-tamanho de fonte
+-plano de fundo
+-display flex
+
