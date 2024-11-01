@@ -1,0 +1,112 @@
+/* #quadrado{
+
+    width: 150px;
+    height: 150px;
+    background-color: red;
+
+
+} */
+
+/* div:hover{
+
+    transform: scale(10);
+
+} */
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: roboto;
+    font-size: 30px;
+}
+
+body{
+
+    background-image: url(pexels-souvenirpixels-417074.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+header{
+
+    height: 60px;
+    background: rgba(0, 0, 0, 0.8);
+
+}
+
+nav{
+ 
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+
+}
+nav .Link{
+
+    color: white;
+    transition: all 0.5s;
+
+}
+nav .Link:hover{
+
+    transform: scale(1.2);
+
+}
+
+main{
+
+    height: calc(120vh - 60px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.login{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 250px;
+    width: 450px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.8);
+
+}
+
+.login input{
+
+    width: 250px;
+    border-radius: 50px;
+    border: none;
+    text-align: center;
+    
+}
+
+.aviso{
+
+    color: red;
+    font-size: 20px;
+
+}
+
+.btn:hover{
+
+    cursor: pointer;
+
+}
+
+.btn:active{
+
+    background: black;
+    transition: 0.2 linear;
+    
+}
+

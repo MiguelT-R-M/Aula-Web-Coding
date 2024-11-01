@@ -5,11 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>pagina</title>
     <link rel="stylesheet" href="style.css">
-    <script defer src="script.js"></script>
+    <script  src="script.js" defer></script>
+    
 </head>
 <body>
     
-    <input type="text" id="nome">
+    <!-- 1 -->
+    <!-- <input type="text" id="nome">
     <input type="button" value="clica" onclick="imprime()">
     <p id="imprime"></p>
     
@@ -19,7 +21,54 @@
         <option value="Red">vermelho</option>
         <option value="Blue">azul</option>
 
-    </select>
+    </select> 
 
+    <div id="quadrado" onmouseenter="aumenta()" onmouseleave="diminui()">
+
+
+
+    </div>
+
+    <br> -->
+
+    
+    <!-- <div class="form">
+
+    <input type="text" id="nome" onkeyup="caracteresNome()">
+    <p id="aviso1"></p>
+    <input type="password" id=senha onkeyup="senhaRegras()">
+    <p id="aviso2"></p>
+    <input type="button" value="cadastrar" onclick="redireciona()">
+
+    </div> -->
+
+    <!-- 2 -->
+    <header>
+        <nav>
+
+            <a href="pagina 2.html" class="Link">Home</a>
+            <a href="" class="Link">Galeria</a>
+            <a href="" class="Link">Login/Cadastro</a>
+
+        </nav>
+    </header>
+    <main>
+
+        <div class="login">
+
+            <input type="text" id="nome" placeholder="Nome..." onkeyup="a1()">
+            <p id="aviso1" class="aviso"></p>
+            <input type="text" id="senha" placeholder="Senha..." onkeyup="a2()">
+            <p id="aviso2" class="aviso"></p>
+            <input type="button" id="btn01" value="login" onclick="redireciona()"  class="btn">
+
+        </div>
+
+    </main>
+    <footer>
+
+
+
+    </footer>
 </body>
 </html>
